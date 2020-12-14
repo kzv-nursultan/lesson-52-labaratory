@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.card_rank-{
+    display: inline-block;
+    width: 3.3em;
+    height: 4.6em;
+    border: 1px solid #666;
+    border-radius: .3em;
+    padding: .25em;
+    margin: 0 .5em .5em 0;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: normal;
+    font-family: Arial, sans-serif;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0.2em 0.2em 0.5em #333;
+}
+
+.rank{
+    display: block;
+    line-height: 1;
+    text-align: left;
+}
+
+.suit{
+  line-height: .7;
+  font-size: 50px;
+}
+
+.suit:after{
+    display: block;
+    margin-top: -.8em;
+    text-align: center;
+    white-space: pre;
+    line-height: .9;
+    font-size: 1.3em;
+    word-spacing: -.05em;
+}
+
+button {
+  background-color: burlywood;
+  width: 100px;
+  height: 40px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  margin: 20px auto;
+  border-radius: 3%;
+}
