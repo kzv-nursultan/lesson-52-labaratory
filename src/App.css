@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.card_rank-{
+.card_rank{
     display: inline-block;
     width: 3.3em;
     height: 4.6em;
@@ -41,13 +41,25 @@
 }
 
 button {
-  background-color: burlywood;
-  width: 100px;
+  background-color: red;
+  width: 150px;
   height: 40px;
   color: white;
   text-transform: uppercase;
   font-weight: bold;
   border: none;
-  margin: 20px auto;
+  margin: 20px;
   border-radius: 3%;
+}
+
+.D {
+  color: blue;
+}
+
+.H {
+  color: red;
+}
+
+.C {
+  color: green;
 }
